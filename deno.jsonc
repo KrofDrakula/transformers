@@ -1,5 +1,7 @@
 {
-  "tasks": {},
+  "tasks": {
+    "build": "deno run -A scripts/build.ts"
+  },
   "imports": {
     "std/testing/": "https://deno.land/std@0.188.0/testing/",
     "dnt/": "https://deno.land/x/dnt@0.35.0/"
